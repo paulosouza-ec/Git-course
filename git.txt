@@ -1,0 +1,73 @@
+@ Git initial config:
+
+git config --global user.name "psgs"
+git config --global user.email "psgs@cin.ufpe.br"
+
+git config core.editor  #see the editor
+git config --global core.editor ".exe path" #changing the editor 
+
+
+
+@Basic win commands:
+
+pwd 	#where I am
+ls 	#see the directories
+cd /directory  	#navigate between directories
+mkdir 	#creating directory
+touch "file.txt 	#Creating a file
+clear #cleaning all the terminal
+
+
+@Basic git commands:
+
+git init 	# starting repo
+
+git status  #checking the lastest status of the repo
+
+git add .	# adding the all files in the repo
+
+git commit -m "text" 	# commiting
+
+git log  	# checking all the commits
+
+git log --oneline 	# checking the commits in a simpler way
+
+git log --graph		# seeing the commits graph
+
+git log --graph --all  	# seeing the branches in a graph way
+
+git branch 		# seeing the branches of my repo
+
+git checkout "commit_hash" #recovering an older version of the repo
+
+git checkout master   #returning to the the last version of the project 
+
+git diff #see the modifications before the commit
+
+git reset --hard "commit_hash"  #deleting a commit. You gotta make de pointer point to the the last version before the one you want to delete.
+
+
+@Creating branches 
+
+Idea:  Working in different resources or fixing bugs;
+- Try some new ideas without interrupting the main code;
+- Each member of the team can work in a different branch without interrupting anyone and then merging the codes  (when it ends);
+- Branches can be a great way of testing some stuff in the project without merging in the main code; 
+- Manage different versions of the project;
+
+
+git checkout -b "name of the branch"  	#creating a new branch
+git branch     	# see the branch I'm using at the moment
+git checkout "name of the branch" go to a specific branch
+git merge "name of the branch that i want to merge with the master branch"  	#merging branches 
+
+
+
+
+
+
+
+
+
+
+
