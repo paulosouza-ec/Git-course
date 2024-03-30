@@ -63,6 +63,20 @@ git merge "name of the branch that i want to merge with the master branch"  	#me
 
 
 
+@ Sync local and remote repo: 
+
+
+git remote	 #check if your local repo is syncronized
+
+git remote add origin "link of the repo" #sync local with the remote repo
+
+git push -u origin master #send my local repo to the remote one (github) 
+
+git remote -v  # see the link of my repo
+
+
+
+
 
 
 
